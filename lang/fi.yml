@@ -1,0 +1,336 @@
+fi:
+  Forum:
+    ForumMember_TopicNotification:
+      ForumFooter:
+        ComplexTableField:
+          CLOSEPOPUP: 'Sulje ponnahdusikkuna'
+          SUCCESSADD: 'Lisätty %s %s %s'
+        ErrorPage:
+          DESCRIPTION: 'Räätälöity sisältö erilaisille virhetilanteille (esim. "Sivua ei löydy")'
+        Forum:
+          ACCESSATTACH: 'Voivatko käyttäjät liittää tiedostoja?'
+          ACCESSPOST: 'Kuka voi kirjoittaa foorumille?'
+          ATTACH: 'Liitä tiedosto'
+          BBCODEHINT: 'Näytä muotoiluohje'
+          CHANGETHREADFORUM: 'Siirrä ketju toiselle foorumille'
+          CURRENTATTACHMENTS: 'Nykyiset liitteet'
+          DEFAULTCATEGORY: Yleistä
+          DESCRIPTION: 'Yleinen sisältösivu'
+          EDITPOST: 'Muokkaa'
+          FORUMCATEGORY: 'Foorumin aihe'
+          FORUMCREATED: 'Foorumi luotu'
+          FORUMHOLDERCREATED: 'ForumHolder luotu'
+          FORUMMONTHLYPOSTS: 'Foorumin viestit kuukausittain'
+          FORUMREPLYCONTENT: Sisältö
+          FORUMSIGNUPS: 'Rekisteröitymiset kuukausittain'
+          GROUPCREATED: 'Jäsenryhmä luotu'
+          GROUPS: Ryhmät
+          ISGLOBALSTICKY: 'Yleinen tiedote (näkyy kaikilla foorumeilla)?'
+          ISREADONLYTHREAD: 'Vain luku -ketju?'
+          ISSTICKYTHREAD: 'Tiedote-ketju?'
+          LOGINAGAIN: 'Olet kirjautunut ulos foorumeilta. Jos haluat kirjautua takaisin sisään kirjoittaaksesi foorumille, syötä tunnuksesi ja salasanasi alle.'
+          LOGINALREADY: 'Pahoittelut, et pääse alueelle ennen kuin olet kirjautunut sisään. Voit kirjautua toisella tunnuksella alla.'
+          LOGINDEFAULT: 'Syötä sähköpostiosoittesi ja salasanasi nähdäksesi tämän alueen.'
+          LOGINTOPOST: 'Sinun tulee kirjautua sisään ennen kuin voit kirjoittaa foorumille. Kirjaudu alla.'
+          LOGINTOPOSTAGAIN: 'Olet kirjautunut ulos foorumeilta. Jos haluat kirjautua takaisin sisään kirjoittaaksesi foorumille, syötä tunnuksesi ja salasanasi alle.'
+          LOGINTOPOSTLOGGEDIN: 'Pahoittelut, et voi kirjoittaa tälle foorumille ennen kuin olet kirjautunut sisään. Voit kirjautua toisella tunnuksella alla. Jos olet kirjautuneena sisän, etkä silti voi kirjoittaa foorumille, sinulla ei ole tarvittavia oikeuksia.'
+          NEWTOPIC: 'Aloita uusi ketju'
+          NOPOSTPERMISSION: 'Pahoittelut, sinulla ei ole oikeutta kirjoittaa tälle alueelle.'
+          PLURALNAME: Alueet
+          POSTSFORUMIDUPDATED: 'Foorumiviestien forum ID lisätty'
+          POSTTOTOPIC: 'Aiheen %s viestit'
+          READANYONE: Kuka tahansa
+          READLIST: 'Vain nämä käyttäjät (valitse listalta)'
+          READLOGGEDIN: 'Kirjautuneet käyttäjät'
+          READNOONE: 'Ei kukaan. Tee alueesta "vain luku".'
+          REMOVE: poista
+          REPLYFORMPOST: Kirjoita viesti
+          RSSFORUM: 'Viestit alueelle ''%s'''
+          RSSFORUMS: 'Viestit kaikille alueille'
+          SAVE: Tallenna
+          SINGULARNAME: Foorumi
+          SUBSCRIBETOPIC: 'Tilaa tämä ketju (saat sähköposti-ilmoituksen kun ketjuun vastataan)'
+          TITLE: 'Yleinen keskusteltu'
+          UPLOADSFOLDER: 'Lataukset-kansio'
+          UPLOADVALIDATIONFAIL: 'Tätä tiedostomuotoa ei sallita. Voit siirtää vain seuraavia tiedostomuotoja:'
+          WELCOMEFORUM: 'Tervetuloa SilverStripe Foorumi-moduliin! Tämä on oletus Foorumisivu. Voit nyt lisätä aiheita.'
+          WELCOMEFORUMHOLDER: 'Tervetuloa SilverStripe Foorumi-moduliin! Tämä on oletus Foorumin koontisivu. Voit nyt lisätä alueita.'
+          IDENTICON: Identicon
+          MM: 'Mysteerihenkilö'
+          MONSTERID: Monsterid
+          RETRO: Retro
+          STANDARD: Vakio
+          WAVATAR: Wavatar
+        Forum_ss:
+          ANNOUNCEMENTS: Tiedotukset
+          GOTOTHISTOPIC: 'Mene aiheeseen %s'
+          LASTPOST: 'Viimeisin viesti'
+          NEWTOPIC: 'Klikkaa tästä aloittaaksesi uuden aiheen'
+          NEWTOPICIMAGE: 'Aloita uusi aihe'
+          NEWTOPICTEXT: 'Klikkaa tästä aloittaaksesi uuden aiheen'
+          NEXTLNK: 'Seuraava sivu'
+          NOTOPICS: 'Tällä alueella ei ole aiheita'
+          POSTS: Viestit
+          PREVLNK: 'Edellinen sivu'
+          READONLYFORUM: 'Tämä Foorumi on vain luettavissa. Et voi vastata tai aloittaa uutta keskustelua.'
+          THREADS: Ketjut
+          TOPIC: Aihe
+        ForumAdmin_right_ss:
+          EDITPAGE: 'Muokkaa'
+          WELCOME: 'Tervetuloa kohteeseen %s! Valitse haluamasi artikkeli vasemmalta.'
+        ForumHeader_ss:
+          BY: mukaan
+          IN: kohteessa
+          JUMPTO: 'Siirry:'
+          MEMBERS: jäsenet
+          POSTS: Viestit
+          SEARCHBUTTON: Haku
+          SELECT: Valitse
+          TOPICS: Aiheet
+        ForumHolder_memberlist_ss:
+          COUNTRY: Maa
+          FORUMPOSTS: 'Viestit'
+          JOINED: Liittynyt
+          MEMBERNAME: 'Jäsenen nimi'
+          NEXT: Seur.
+          ORDERBYCOUNTRY: 'Järjestä maan mukaan'
+          ORDERBYJOINED: 'Järjestä liittymisajan mukaan'
+          ORDERBYNAME: 'Järjestä nimen mukaan'
+          ORDERBYPOSTS: 'Järjestä viestimäärän mukaan'
+          PREV: Edell.
+        ForumHolder_search_ss:
+          DATE: PVM
+          Next: Seur.
+          ORDER: 'Järjestys:'
+          ORDERBYDATE: 'Järjestä päivämäärän mukaan, uusin ensin.'
+          ORDERBYRELEVANCE: 'Järjestä relevanssin mukaan, relevantein ensin'
+          ORDERBYTITLE: 'Järjestä otsikon mukaan'
+          PAGE: Sivu
+          PREV: Edell.
+          RELEVANCE: Relevanssi
+          RSSFEED: 'RSS-syöte'
+          THREAD: Ketju
+          TITLE: Otsikko
+          NEWEST: Uusin
+          OLDEST: Vanhin
+          ORDERBYNEWEST: 'Järjestä uusimman mukaan (viimeisimmät ensin)'
+          ORDERBYOLDEST: 'Järjestä vanhimman mukaan (vanhimmat ensin)'
+        ForumLogin_ss:
+          ANONYMOUS: Anonyymikäyttäjä
+          LOGGEDINAS: 'Olet kirjautuneena nimellä'
+          LOGIN: Kirjautuminen
+          LOGINEXPLICATION: 'Klikkaa tästä kirjautuaksesi'
+          LOGOUT: 'Kirjaudu ulos'
+          LOGOUTEXPLICATION: 'Klikkaa tästä kirjautuaksesi ulos'
+          LOSTPASS: 'Salasana unohtunut'
+          LOSTPASSEXPLICATION: 'Klikkaa tästä palauttaaksesi salasanasi'
+          OPENID: 'Rekisteröidy OpenID:lla'
+          OPENIDDESC1: 'OpenID on Internetin laajuinen tunnistusjärjestelmä, jonka kautta voit kirjautua monille sivustoille yhden tilin kautta.'
+          OPENIDDESC3: 'Lisätietoa saat OpenID:n viralliselta sivustolta osoitteessa <a href="http://openid.net">'
+          OPENIDEXPLICATION: 'Klikkaa tästä rekisteröityäksesi OpenID:lla'
+          PROFILE: Profiili
+          PROFILEEXPLICATION: 'Klikkaa tästä muokataksesi profiiliasi'
+          REGEXPLICATION: 'Klikkaa tästä rekisteröityäksesi'
+          REGISTER: Rekisteröidy
+          WHATOPENID: 'Mikä on OpenID?'
+          WHATOPENIDUPPER: 'Mikä on OpenID?'
+        ForumMemberProfile_register_ss:
+          LOGOUT: Kirjaudu ulos
+          PLEASELOGOUT: 'Kirjaudu ulos ennen kuin rekisteröidyt'
+        ForumMemberProfile_show_ss:
+          AVATAR: Keskustelukuvake
+          CITY: Kaupunki
+          COMPANY: Yritys
+          COUNTRY: Maa
+          EMAIL: Sähköposti
+          FIRSTNAME: 'Etunimi'
+          FORUMRANK: 'Käyttäjätaso'
+          LASTPOST: 'Viimeisin viesti: %s'
+          LATESTPOSTS: 'Viimeisimmät viestit'
+          NICKNAME: Nimimerkki
+          NORANK: 'Ei tasoa'
+          OCCUPATION: Ammatti
+          POSTNO: 'Viestien määrä'
+          PROFILE: Profiili
+          SURNAME: Sukunimi
+          USERSAVATAR: '&#39;s keskustelukuvake'
+        ForumMember_ForgotNicknameEmail_ss:
+          HI: 'Hei,'
+          MESSAGE: 'Tässä on käyttäjänimesi sivustolle <a href="home/">%s</a>.'
+          USERNAME: 'Käyttäjänimi:'
+        ForumMember_TopicNotification_ss:
+          BY: »
+          HI: 'Hei %s,'
+          NEWPOSTMESSAGE: 'Tilaamaasi ketjuun on lisätty uusi viesti'
+          REPLYLINK: 'Mene aiheeseen'
+          UNSUBSCRIBETEXT: 'Lopeta ketjun tilaaminen'
+        ForumRole:
+          ADMIN: Ylläpitäjä
+          ANONYMOUS: 'Anonyymikäyttäjä'
+          AVATAR: 'Keskustelukuvake'
+          CANGRAVATAR: 'Mikäli käytät Gravataria, jätä tämä tyhjäksi'
+          CITY: Kaupunki
+          COMPANY: Yritys
+          COUNTRY: Maa
+          EMAIL: Sähköposti
+          FIRSTNAME: 'Etunimi'
+          FORUMRANK: 'Käyttäjän pisteet'
+          MOD: Moderaattori
+          MODERATEDFORUMS: 'Moderoidut foorumit'
+          NICKNAME: Nimimerkki
+          OCCUPATION: Ammatti
+          OPENIDINAME: OpenID/i-name
+          PASSOPTMESSAGE: 'Koska käytät OpenID:tä, i-name salasana on vaihtoehtoinen. Mikäli annat salasanan, pystyt myös kirjautumaan sähköpostiosoitteellasi.'
+          PASSWORD: Salasana
+          PERSONAL: 'Omat tiedot'
+          RATING: 'Käyttäjän pisteet'
+          SURNAME: Etunimi
+          SUSPENSIONEMAILNOTE: 'Ole hyvä ja ota yhtettä %s virheen korjaamista varten.'
+          SUSPENSIONNOTE: 'Tämä keskustelupalstan tili on jäädytetty.'
+          TICK: 'Valitse julkisessa profiilissa näkyvät kentät'
+          TRANSFERSUCCEEDED: 'Tietojen siirto onnistui. Viimeistely vaatii kuitenkin ForumMember-taulun poistamisen tietokannasta. Tämä onnistuu esim. suorittamalla käskyn \"DROP TABLE ''ForumMember''\".'
+          UPLOADAVATAR: 'Lataa keskustelukuvake'
+        ForumThreadSubscribe_ss:
+          CLICKSUBSCRIBE: 'Klikkaa tästä tilataksesi tämän ketjun'
+          CLICKUNSUBSCRIBE: 'Klikkaa tästä lopettaaksesi ketjun tilaaminen'
+          SUBSCRIBE: Tilaa
+          UNSUBSCRIBE: Lopeta tilaus
+        Forum_BBCodeHint_ss:
+          AVAILABLEBB: 'Käytössä olevat BB Code tagit'
+        Forum_show_ss:
+          AUTHOR: Kirjoittaja
+          CLICKGOTOEND: 'Siirry viestin loppuun'
+          CLICKGOTOTOP: 'Siirry viestin alkuun'
+          CLICKREPLY: 'Klikkaa vastataksesi'
+          GOTOEND: 'Mene loppuun'
+          GOTOTOP: 'Mene alkuun'
+          NEXTLINK: Seuraava
+          NEXTTITLE: 'Seuraava sivu'
+          PAGE: 'Sivu:'
+          PREVLINK: Edell.
+          PREVTITLE: 'Edellinen sivu'
+          REPLY: Vastaa
+          TOPIC: 'Aihe:'
+          VIEWS: Katselut
+        Page:
+          DESCRIPTION: 'Yleinen sisältösivu'
+        Post:
+          DELETE: Poista
+          EDIT: Muokkaa
+          MARKASSPAM: 'Merkitse roskapostiksi'
+          REPLYLINK: 'Vastaa'
+          RESPONSE: 'VAST: %s'
+          SHOWLINK: 'Näytä ketju'
+          PLURALNAME: Viestit
+          SINGULARNAME: Viesti
+        Post_rss_ss:
+          POSTEDTO: 'Lähetetty alueelle:'
+        SinglePost_ss:
+          ATTACHED: 'Liitetyt tiedostot'
+          GOTOPROFILE: 'Näytä tämän käyttäjän profiili'
+          LASTEDITED: 'Viimeksi muokattu:'
+          POST: Kirjoita viesti
+          POSTS: Viestit
+        forum:
+          LOGINTOUNSUBSCRIBE: 'Lopettaaksesi aiheen tilauksen, kirjaudu ensin sisään.'
+          MEMBERLIST: 'Jäsenlista'
+          MODERATOR: 'Foorumin moderaattori'
+          MODERATORS: 'Tämän foorumin moderaattorit'
+          MOSTPOPULARTHREADS: 'Suosituimmat ketjut'
+          SEARCHBREADCRUMB: Haku
+        ForumCategory:
+          PLURALNAME: 'Foorumin aiheet'
+          SINGULARNAME: 'Foorumin aihe'
+        ss:
+          ISONLINE: 'on paikalla'
+        ForumHolder_popularthreas_ss:
+          DATECREATED: 'Luotu'
+          NEXT: Seur.
+          NUMVIEWS: 'Katselukerrat'
+          POSTCOUNT: 'Viestilaskuri'
+          POSTS: Viestit
+          PREV: Edell.
+          SORTTHREADSBY: 'Lajittele ketjut:'
+          TITLE: Otsikko
+          VIEWS: Katselut
+        ForumThread:
+          PLURALNAME: 'Ketjut'
+          SINGULARNAME: 'Ketju'
+        ForumThread_Subscription:
+          PLURALNAME: 'Ketjujen tilaukset'
+          SINGULARNAME: 'Ketjun tilaus'
+        Post_Attachment:
+          PLURALNAME: Tiedostot
+          SINGULARNAME: Tiedosto
+      ss:
+        BY: kirjoittanut
+    ForumHolder:
+      DESCRIPTION: 'Yleinen sisältösivu'
+      MEMBERLIST: 'Jäsenlista'
+      PLURALNAME: 'Foorumin koontisivut'
+      POPULARTHREADS: 'Suosituimmat ketjut'
+      POSTSTOALLFORUMS: 'Viestit kaikille alueille'
+      SEARCHEDFOR: 'Etsit hakusanaa ''%s''.'
+      SEARCHRESULTS: 'Hakutulokset'
+      SINGULARNAME: 'Foorumin koontisivu'
+    ForumMember_NotifyModerator_ss:
+      BY: lajitteluperuste
+      HI: 'Hei %s,'
+      MODERATORMODERATE: 'Hallinnoi ketjua'
+      MODERATORNEWPOSTMESSAGE: 'Viesti on lisätty tai muokattu'
+      MODERATORNEWTHREADMESSAGE: 'Uusi ketju on aloitettu'
+      MODERATORNOTE: 'HUOMIO: Tämä on automaattisesti lähetetty viesti kaikille alueen moderaattoreille.'
+      MODERATORSIGNOFF: 'Terveisin,\nFoorumin Botti.'
+    ss:
+      GOTOTHISTOPIC: 'Mene aiheeseen %s'
+  ForumFooter_ss:
+    CURRENTLYON: 'Paikalla:'
+    ISONLINE: 'on paikalla'
+    LATESTMEMBER: 'Tervetuloa tuorein jäsenemme:'
+    NOONLINE: 'Ei ketään paikalla.'
+  ForumHolder_ss:
+    ANNOUNCEMENTS: Tiedotukset
+    FORUM: Foorumi
+    FORUMS: Foorumit
+    LASTPOST: 'Viimeisin viesti'
+    POSTS: Viestit
+    THREADS: Ketjut
+  ForumHolder_popularthreads_ss:
+    DATECREATED: 'Luotu'
+    NEXT: Seuraava
+    NUMVIEWS: 'Katselukerrat'
+    POSTCOUNT: 'Viestilaskuri'
+    POSTS: Viestit
+    PREV: Edellinen
+    SORTTHREADSBY: 'Lajittele ketjut:'
+    TITLE: Otsikko
+    VIEWS: Katselukerrat
+  ForumMemberProfile:
+    AUTHENTICATIONFAILED: 'OpenID-nimen tunnistus epäonnistui.'
+    CANCELLEDVERIFICATION: 'Varmistaminen peruttiin. Ole hyvä ja yritä uudelleen.'
+    EMAILEXISTS: 'Pahoittelut, kyseinen sähköpostiosoite on jo olemassa. Ole hyvä ja valitse toinen.'
+    ENTEROPENID: 'Ole hyvä ja syötä OpenID-tunnuksesi jatkaaksesi rekisteröitymistä'
+    FORUMREGTITLE: 'Foorumille rekisteröityminen'
+    FORUMUSERPROFILE: 'Foorumin käyttäjäprofiili'
+    FORUMUSERREGISTER: 'Foorumin rekisteröityminen'
+    LeaveBlank: 'Älä syötä tähän mitään'
+    NICKNAMEEXISTS: 'Pahoittelut, kyseinen nimi on jo olemassa. Ole hyvä ja valitse toinen.'
+    OPENIDEXISTS: 'Pahoittelut, kyseinen OpenID-tunnus on jo rekisteröity. Ole hyvä ja valitse toinen tai rekisteröidy ilman OpenID-tunnusta.'
+    REGISTER: Rekisteröidy
+    REGISTEROPENID: 'Rekisteröidy OpenID:lla'
+    SAVECHANGES: 'Tallenna muutokset'
+    UNEXPECTEDERROR: 'Tapahtui odottamaton virhe. Ole hyvä ja yritä uudelleen tai rekisteröidy ilman OpenID-tunnusta.'
+    USERPROFILE: 'Käyttäjäprofiili'
+    WRONGPERMISSION: 'Sinulla ei ole oikeuksia muokata kyseistä jäsentä.'
+  RedirectorPage:
+    DESCRIPTION: 'Uudelleenohjaa toiselle sisäiselle sivulle'
+  SiteTree:
+    DESCRIPTION: 'Yleinen sisältösivu'
+    PLURALNAME: Sivut
+    SINGULARNAME: Sivu
+  TopicListing_ss:
+    BY: järjestelyperuste
+    CLICKTOUSER: 'Klikkaa tästä nähdäksesi'
+    GOTOFIRSTUNREAD: 'Mene ensimmäiseen lukemattomaan viestiin aiheessa %s.'
+  VirtualPage:
+    DESCRIPTION: 'Näyttää toisen sivun sisällön'
