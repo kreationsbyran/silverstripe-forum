@@ -642,8 +642,6 @@ class ForumHolder_Controller extends Page_Controller
 
         Requirements::themedCSS('Forum', 'forum', 'all');
 
-        RSSFeed::linkToFeed($this->Link("rss"), _t('ForumHolder.POSTSTOALLFORUMS', "Posts to all forums"));
-
         // Set the back url
         if (isset($_SERVER['REQUEST_URI'])) {
             Session::set('BackURL', $_SERVER['REQUEST_URI']);
@@ -834,7 +832,6 @@ class ForumHolder_Controller extends Page_Controller
 
         // attach a link to a RSS feed version of the search results
         $rssLink = $this->Link() ."search/?Search=".urlencode($keywords). "&amp;order=".urlencode($order)."&amp;rss";
-        RSSFeed::linkToFeed($rssLink, _t('ForumHolder.SEARCHRESULTS', 'Search results'));
 
         return array(
             "Subtitle"      => DBField::create_field('Text', _t('ForumHolder.SEARCHRESULTS', 'Search results')),
