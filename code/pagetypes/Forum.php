@@ -562,10 +562,7 @@ class Forum_Controller extends Page_Controller
         Requirements::javascript("forum/javascript/jquery.MultiFile.js");
 
         Requirements::themedCSS('Forum', 'forum', 'all');
-
-        RSSFeed::linkToFeed($this->Parent()->Link("rss/forum/$this->ID"), sprintf(_t('Forum.RSSFORUM', "Posts to the '%s' forum"), $this->Title));
-        RSSFeed::linkToFeed($this->Parent()->Link("rss"), _t('Forum.RSSFORUMS', 'Posts to all forums'));
-
+		
         if (!$this->canView()) {
             $messageSet = array(
                 'default' => _t('Forum.LOGINDEFAULT', 'Enter your email address and password to view this forum.'),
@@ -1239,8 +1236,6 @@ class Forum_Controller extends Page_Controller
             $thread->incNumViews();
 
             $posts = sprintf(_t('Forum.POSTTOTOPIC', "Posts to the %s topic"), $thread->Title);
-
-            RSSFeed::linkToFeed($this->Link("rss") . '/thread/' . (int) $this->urlParams['ID'], $posts);
 
             $title = Convert::raw2xml($thread->Title) . ' &raquo; ' . $title;
             $field = DBField::create_field('HTMLText', $title);
